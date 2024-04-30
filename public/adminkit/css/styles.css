@@ -1,0 +1,43 @@
+.sidebar,
+.sidebar-content {
+    background-color: rgb(0 139 234);
+}
+
+.sidebar-link,
+a.sidebar-link {
+    background: rgb(0 139 234);
+}
+
+.sidebar-item.active .sidebar-link:hover,
+.sidebar-item.active>.sidebar-link {
+    background: rgba(255 255 255/0.2);
+    color: rgb(255 255 255/1);
+    border-left-color: rgba(255 255 255/0.8);
+}
+
+.sidebar-link,
+a.sidebar-link {
+    color: #fffc;
+}
+
+.sidebar-link i,
+.sidebar-link svg,
+a.sidebar-link i,
+a.sidebar-link svg {
+    color: #fffc;
+}
+
+.sidebar-link:hover,
+.sidebar-link:hover i,
+.sidebar-link:hover svg {
+    color: rgb(255 255 255/1);
+}
+
+.sidebar-link:hover {
+    background: rgba(255 255 255/0.2);
+    border-left-color: transparent;
+}
+
+.sidebar-header {
+    color: #fffc;
+}
