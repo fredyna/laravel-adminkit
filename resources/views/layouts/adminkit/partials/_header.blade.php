@@ -14,5 +14,6 @@
 
     <link href="{{ asset('adminkit/css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
     @yield('mycss')
 </head>

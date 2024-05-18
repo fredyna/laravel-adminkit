@@ -4,7 +4,7 @@
             <span class="align-middle">AdminKit</span>
         </a>
 
-        <ul class="sidebar-nav">
+        <ul class="sidebar-nav mb-4">
             <li class="sidebar-header">
                 Pages
             </li>
@@ -88,18 +88,32 @@
                     <i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
                 </a>
             </li>
-        </ul>
 
-        <div class="sidebar-cta">
-            <div class="sidebar-cta-content">
-                <strong class="d-inline-block mb-2">Upgrade to Pro</strong>
-                <div class="mb-3 text-sm">
-                    Are you looking for more components? Check out our premium version.
-                </div>
-                <div class="d-grid">
-                    <a href="upgrade-to-pro.html" class="btn btn-primary">Upgrade to Pro</a>
-                </div>
-            </div>
-        </div>
+            <li class="sidebar-item">
+                <a data-bs-target="#multi-level" data-bs-toggle="collapse" class="sidebar-link collapsed collapsedd"
+                    onclick="toggleDropdown(this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="feather feather-sliders align-middle">
+                        <line x1="4" y1="21" x2="4" y2="14"></line>
+                        <line x1="4" y1="10" x2="4" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12" y2="3"></line>
+                        <line x1="20" y1="21" x2="20" y2="16"></line>
+                        <line x1="20" y1="12" x2="20" y2="3"></line>
+                        <line x1="1" y1="14" x2="7" y2="14"></line>
+                        <line x1="9" y1="8" x2="15" y2="8"></line>
+                        <line x1="17" y1="16" x2="23" y2="16"></line>
+                    </svg> <span class="align-middle">Multi Level</span>
+                </a>
+                <ul id="multi-level" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar"
+                    style="">
+                    <li class="sidebar-item"><a class="sidebar-link" href="#">Submenu 1</a></li>
+                    <li class="sidebar-item"><a class="sidebar-link" href="#">Submenu 2</a></li>
+                </ul>
+            </li>
+
+            <li class="sidebar-header"></li>
+        </ul>
     </div>
 </nav>
